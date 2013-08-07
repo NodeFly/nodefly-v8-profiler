@@ -5,5 +5,8 @@
   "homepage": "http://github.com/nodefly/nodefly-v8-profiler",
   "keywords": ["profiler", "inspector"],
   "engines" : { "node": ">=0.6" },
-  "main" : "index"
+  "main" : "index",
+  "scripts": { 
+    "install" : "(node-gyp rebuild 2> builderror.log) || (exit 0)"
+  }
 }
