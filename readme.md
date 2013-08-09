@@ -5,6 +5,12 @@ profiler and integration with [node-inspector](http://github.com/dannycoates/nod
 
     npm install v8-profiler
 
+We now include node v0.10 binaries for a number of platforms.  During the
+install, node-gyp will attempt to build the module for your platform.  If it
+fails (see builderror.log), the module will still be installed, but will
+attempt to load up an appropriate pre-built binary for your platform if there
+is one available.
+
 ## Usage
 
     var profiler = require('v8-profiler');

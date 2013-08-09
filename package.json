@@ -1,6 +1,6 @@
 {
   "name": "nodefly-v8-profiler",
-  "version": "3.7.0",
+  "version": "3.7.1",
   "description": "node bindings for the v8 profiler, minus the retain/dominator bits removed from V8",
   "homepage": "http://github.com/nodefly/nodefly-v8-profiler",
   "keywords": ["profiler", "inspector"],

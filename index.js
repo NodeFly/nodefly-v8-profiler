@@ -26,7 +26,7 @@ for (key in version_map) {
 // if lib_ver stays undefined require will fail and we'll catch it
 // same behaviour when there's a new version of node and we haven't 
 // compiled for it yet
-var modpath = "./compiled/" + platform + "/" + process.arch + "/" + lib_ver
+var modpath = "./compiled/" + platform + "/" + `.arch + "/" + lib_ver
 	+ "/profiler";
 var buildpath = "./build/Release/profiler";
 
